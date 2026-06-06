@@ -17,7 +17,7 @@ st.set_page_config(
 # LOAD MODEL
 # ==========================================
 
-model = joblib.load("airline_model.joblib")
+model = joblib.load("airline_model_compressed.joblib")
 
 # ==========================================
 # CUSTOM CSS
